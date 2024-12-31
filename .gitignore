@@ -1,7 +1,20 @@
 ### IntelliJ IDEA ###
+# Exclude project-specific settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Exclude build output directories
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+# Exclude logs
+*.log
+
+# Exclude temporary files
+*.tmp
 
 ### Eclipse ###
 .apt_generated
@@ -25,5 +38,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### macOS ###
 .DS_Store
